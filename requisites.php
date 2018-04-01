@@ -8,7 +8,7 @@ $main_name_corot = "By-By.info";
 $site_name = "By-By.info";
 $email = "contact@by-by.info";
 
-$name_user = 'u330710796_1';//база данных
-$Name_database = 'u330710796_1';
+$name_user = 'u664223845_1';//база данных
+$Name_database = 'u664223845_1';
 $password = '111111';
 $name_server = 'mysql.hostinger.ru';
