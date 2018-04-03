@@ -6,5 +6,5 @@ RewriteRule .* index.php [L]
 
 
 # Return 404
-ErrorDocument 404 https://bypolit.org/error.php
+ErrorDocument 404 https://by-by.info/error.php
 DirectoryIndex index.php

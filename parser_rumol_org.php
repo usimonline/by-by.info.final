@@ -149,7 +149,7 @@ for($j = 0; $j < 3; $j++) {
 
                     if ($all_count[$i] == 0) {
                         $k++;
-                        $contentTitle = str_replace('TUT.BY', 'BYPolit.org',$contentTitle);
+                        $contentTitle = str_replace('TUT.BY', 'by-by.info',$contentTitle);
                         $url_mass_titles[$k] = $contentTitle;
                     }
 
@@ -159,7 +159,7 @@ for($j = 0; $j < 3; $j++) {
                         $k++;
                         $contentTitle = str_replace('&#x3C;','<',$contentTitle);
                         $contentTitle = str_replace('/&#x3E;','>',$contentTitle);
-                        $contentTitle = str_replace('TUT.BY', 'BYPolit.org',$contentTitle);
+                        $contentTitle = str_replace('TUT.BY', 'by-by.info',$contentTitle);
                         $url_mass_description[$k] = strip_tags($contentTitle, '<p>');
                     }
                     break;

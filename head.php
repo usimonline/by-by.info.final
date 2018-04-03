@@ -26,7 +26,7 @@ if ($route) {//Переключатель заголовков
 	<meta http-equiv="cache-control" content="no-cache">
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:site" content="@BYPolit.org"/>
+<meta name="twitter:site" content="@by-by.info"/>
 <meta name="twitter:title" content="<?php echo $site_name; ?> :: <?php echo $title; ?>" />
 <meta name="twitter:description" content="<?php echo $site_name; ?> :: <?php echo $description ?>" />
 <meta property="og:url" content="<?php echo $main_name; ?><?php echo $url_og; ?>" />

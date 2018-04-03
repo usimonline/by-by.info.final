@@ -18,7 +18,7 @@ $fb = new Facebook\Facebook([
 
 $permissions = ['manage_pages','publish_pages'];
 
-$url = 'https://bypolit.org/facebook_2.php';
+$url = 'https://by-by.info/facebook_2.php';
 
 $loginUrl = $helper->getLoginUrl($url, $permissions);
 

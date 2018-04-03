@@ -39,8 +39,8 @@
 							</ul>
 							<ul>
 								<!--
-								<li><a class="twitter-timeline" href="https://twitter.com/BYPolit"   width="240" height="700"
-									   data-chrome="nofooter" lang="ru">Tweets by BYPolit</a>
+								<li><a class="twitter-timeline" href="https://twitter.com/by-by"   width="240" height="700"
+									   data-chrome="nofooter" lang="ru">Tweets by By-By</a>
 									   -->
 								<li><a class="twitter-timeline" href="https://twitter.com/by-by.info"   width="240" height="700"
 									   data-chrome="nofooter" lang="ru">Tweets by-by.info </a>
@@ -81,7 +81,7 @@
 
 
 								<!--
-								<div class="fb-follow" data-href="https://www.facebook.com/BYPolit.org"
+								<div class="fb-follow" data-href="https://www.facebook.com/by-by.info"
 								data-layout="button_count" data-size="large" data-show-faces="true">
 								-->
 								<div class="fb-follow" data-href="https://www.facebook.com/"
