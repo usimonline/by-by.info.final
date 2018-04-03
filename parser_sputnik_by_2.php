@@ -26,12 +26,12 @@ $text_temp_2 = file_get_contents($url_mass_url[$i]);
                         $text_temp_2 = str_replace('Читайте также:', '', $text_temp_2);
                         $text_temp_2 = str_replace('Читайте также', '', $text_temp_2);
                         $text_temp_2 = str_replace('FINANCE.', '', $text_temp_2);
-                        $url_mass_texts[$i] = str_replace('Sputnik','BYPolit.org', $text_temp_2);
+                        $url_mass_texts[$i] = str_replace('Sputnik','by-by.info', $text_temp_2);
       
-                        $contentTitle = str_replace('Sputnik','BYPolit.org',$_POST['title_'.$k]);
+                        $contentTitle = str_replace('Sputnik','by-by.info',$_POST['title_'.$k]);
                         $url_mass_titles[$i] = $contentTitle;
 
-                        $contentTitle = str_replace('Sputnik','BYPolit.org',$_POST['description_'.$k]);
+                        $contentTitle = str_replace('Sputnik','by-by.info',$_POST['description_'.$k]);
                         $url_mass_description[$i] = strip_tags($contentTitle, '<p>');
 
                         $url_mass_texts[$i] = str_replace('<p>'.$url_mass_description[$i].'</p>','',$url_mass_texts[$i]);

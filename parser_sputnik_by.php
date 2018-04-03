@@ -138,7 +138,7 @@ for($j = 0; $j < 4; $j++) {
                         //$text_temp_2 = strip_tags(parser_page($temp_url, "©", "social-likes-pane"),'<p><img>');
                         //$pos_text = strpos($text_temp_2, '<p>');
                         //$text_temp_2 = substr($text_temp_2, $pos_text);
-                        //$text_temp_2 = str_replace('Sputnik','BYPolit.org', $text_temp_2);
+                        //$text_temp_2 = str_replace('Sputnik','by-by.info', $text_temp_2);
 
                         $text_temp_2 = str_replace('width', '', $text_temp_2);
                         $text_temp_2 = str_replace('height', '', $text_temp_2);
@@ -146,7 +146,7 @@ for($j = 0; $j < 4; $j++) {
                         $text_temp_2 = str_replace('Читайте также:', '', $text_temp_2);
                         $text_temp_2 = str_replace('Читайте также', '', $text_temp_2);
                         $text_temp_2 = str_replace('FINANCE.', '', $text_temp_2);
-                        $url_mass_texts[$k] = str_replace('Sputnik','BYPolit.org', $text_temp_2);
+                        $url_mass_texts[$k] = str_replace('Sputnik','by-by.info', $text_temp_2);
                         //$url_mass_img[$i] = parser_page($contentTitle, "featured-image", "class=");
                     }
                     break;
@@ -161,7 +161,7 @@ for($j = 0; $j < 4; $j++) {
 
                     if ($all_count[$i] == 0) {
                         $k++;
-                        $contentTitle = str_replace('Sputnik','BYPolit.org',$contentTitle);
+                        $contentTitle = str_replace('Sputnik','by-by.info',$contentTitle);
                         $url_mass_titles[$k] = $contentTitle;
                     }
 
@@ -171,7 +171,7 @@ for($j = 0; $j < 4; $j++) {
                         $k++;
                         //$contentTitle = str_replace('&#x3C;','<',$contentTitle);
                         //$contentTitle = str_replace('/&#x3E;','>',$contentTitle);
-                        $contentTitle = str_replace('Sputnik','BYPolit.org',$contentTitle);
+                        $contentTitle = str_replace('Sputnik','by-by.info',$contentTitle);
                         //$contentTitle = str_replace('FINANCE.', '',$contentTitle);
                         $url_mass_description[$k] = strip_tags($contentTitle, '<p>');
                         $url_mass_texts[$k] = str_replace('<p>'.$url_mass_description[$k].'</p>','',$url_mass_texts[$k]);

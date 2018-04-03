@@ -124,7 +124,7 @@ $contentTitle = str_replace('<link>','', $contentTitle);
                         $text_temp_2 = str_replace('Читайте также:', '', $text_temp_2);
                         $text_temp_2 = str_replace('Читайте также', '', $text_temp_2);
                         $text_temp_2 = str_replace('FINANCE.', '', $text_temp_2);
-                        $url_mass_texts[$k] = str_replace('TUT.BY', 'BYPolit.org', $text_temp_2);
+                        $url_mass_texts[$k] = str_replace('TUT.BY', 'by-by.info', $text_temp_2);
                         //$url_mass_img[$i] = parser_page($contentTitle, "featured-image", "class=");
                     }
                     break;
@@ -139,7 +139,7 @@ $contentTitle = str_replace('<link>','', $contentTitle);
 
                     if ($all_count[$i] == 0) {
                         $k++;
-                        $contentTitle = str_replace('TUT.BY', 'BYPolit.org',$contentTitle);
+                        $contentTitle = str_replace('TUT.BY', 'by-by.info',$contentTitle);
                         $url_mass_titles[$k] = $contentTitle;
                     }
 
@@ -149,7 +149,7 @@ $contentTitle = str_replace('<link>','', $contentTitle);
                         $k++;
                         $contentTitle = str_replace('&#x3C;','<',$contentTitle);
                         $contentTitle = str_replace('/&#x3E;','>',$contentTitle);
-                        $contentTitle = str_replace('TUT.BY', 'BYPolit.org',$contentTitle);
+                        $contentTitle = str_replace('TUT.BY', 'by-by.info',$contentTitle);
                         $contentTitle = str_replace('FINANCE.', '',$contentTitle);
                         $url_mass_description[$k] = strip_tags($contentTitle, '<p>');
                     }
