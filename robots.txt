@@ -1,6 +1,7 @@
 User-Agent: *
 Disallow: /
 Allow: /news
+
 Disallow: /news/2017-2/
 Disallow: /news/2018-2/
 Host: http://by-by.info/
